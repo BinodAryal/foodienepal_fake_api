@@ -1,4 +1,4 @@
-breweries = [
+
   {
     "id": 1,
     "type":"brewery",
@@ -56,10 +56,4 @@ breweries = [
       "created_at":"-0001-11-30 00:00:00",
       "updated_at":"-0001-11-30 00:00:00",
       "status":"open"
-    },
-    "beers":[
-
-    ],
-    "rating":"?"
-  }
-  ];
+    }
