@@ -1,59 +1,14 @@
-
-  {
-    "id": 1,
-    "type":"brewery",
-    "title":"Main Street Brewing",
-    "color": "#fff",
-    "accentColor": "#000",
-    "address":"261 E 7th Ave",
-    "city":"Vancouver",
-    "province":"BC",
-    "postal_code":"V5T 0B4",
-    "country":"Canada",
-    "latitude":"49.26467860",
-    "longitude":"-123.09920430",
-    "summary": "Nice ambiance, good selection of beers, food menu has expanded with some tasty snacks, overall a great place to sit down for a flight or pick up a growler to go.",
-    "description":"Created by Main Street locals who believe in beer that tastes like... Beer.  Main Street Brewing resides in one of Vancouver\u2019s few surviving industrial heritage buildings. The \u201cVancouver Breweries Garage\u201d dates back to 1913 and sits in the historic Brewery Creek district, an area once dominated by tanneries & breweries and which we now proudly call home.  The Main Thing Is The Beer!",
-    "phone":16043367711,
-    "email":"info@mainstreetbeer.ca",
-    "website":"http://mainstreetbeer.ca/",
-    "social_instagram":"mainstreetbeer",
-    "social_facebook":"MainStreetBeer",
-    "social_twitter":"mainstreetbeer",
-    "social_untappd":"8418",
-    "logo":"http://storage.growlerfill.ca/2/mainst.png",
-    "banner":"http://storage.growlerfill.ca/148/2.jpg",
-    "cost_average_64":"11.00",
-    "cost_average_32":"6.50",
-    "instagram_location_id":null,
-    "contact_email":null,
-    "contact_lastname":null,
-    "contact_firstname":null,
-    "created_at":"-0001-11-30 00:00:00",
-    "updated_at":"2015-09-20 17:32:07",
-    "logo_full":"http://storage.growlerfill.ca/2/mainst.png",
-    "logo_150":"http://storage.growlerfill.ca/2/conversions/thumb.png",
-    "logo_small":"http://storage.growlerfill.ca/2/conversions/medium.png",
-    "banner_thumb":"http://storage.growlerfill.ca/148/conversions/thumb.png",
-    "banner_medium":"http://storage.growlerfill.ca/148/conversions/medium.png",
-    "hours":{
-      "timezone":"America/Vancouver",
-      "brewery_id":2,
-      "monday_open":"13:00:00",
-      "monday_close":"23:00:00",
-      "tuesday_open":"13:00:00",
-      "tuesday_close":"23:00:00",
-      "wednesday_open":"13:00:00",
-      "wednesday_close":"23:00:00",
-      "thursday_open":"13:00:00",
-      "thursday_close":"23:00:00",
-      "friday_open":"12:00:00",
-      "friday_close":"23:00:00",
-      "saturday_open":"12:00:00",
-      "saturday_close":"23:00:00",
-      "sunday_open":"12:00:00",
-      "sunday_close":"23:00:00",
-      "created_at":"-0001-11-30 00:00:00",
-      "updated_at":"-0001-11-30 00:00:00",
-      "status":"open"
-    }
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
